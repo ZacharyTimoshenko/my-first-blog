@@ -16,10 +16,12 @@ body {
 
 .content {
     margin-left: 40px;
+    
 }
 
 h1, h2, h3, h4 {
     font-family: 'Space Mono', monospace;
+    color:#ffffff;
 }
 
 .date {
@@ -49,4 +51,16 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #ffffff;
+}
+
+#editbtn {
+    position: absolute;
+    top: 26%;
+    right: -65%;
+}
+
+#createplus {
+    position: absolute;
+    right: 3%;
+    top: 7%;
 }
