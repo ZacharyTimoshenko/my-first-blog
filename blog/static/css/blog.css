@@ -1,12 +1,15 @@
+body {
+     background-color: #2c2c2c;
+}
 
 .page-header {
-    background-color: #42331e;
+    background-image: url(page-header-img.jpg);
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #d6ba7c;
+    color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -16,11 +19,11 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Space Mono', monospace;
 }
 
 .date {
-    color: #828282;
+    color: #b3b3b3;
 }
 
 .save {
@@ -41,8 +44,9 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    color: #ffffff;
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
+    color: #ffffff;
 }
