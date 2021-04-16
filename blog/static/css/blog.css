@@ -2,16 +2,23 @@ body {
      background-color: #2c2c2c;
 }
 
+.page-header a {
+    text-decoration: none;
+   }
+
 .page-header {
     background-image: url(page-header-img.jpg);
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+
 }
 
 .content {
@@ -62,5 +69,34 @@ h1, h2, h3, h4 {
 #createplus {
     position: absolute;
     right: 3%;
-    top: 7%;
+    top: 10vh;
+}
+
+.textlogo {
+    font-size: 50pt;
+    margin-left: 15px;
+    font-family: 'Space Mono', monospace;
+    color:#ffffff;
+    position: relative;
+
+}
+
+#imglogo {
+    width: 10vh;
+    float: left;
+}
+
+.page-header ul {
+    list-style: none;
+    position: absolute;
+    right: 120vh;
+}
+
+.page-header ul li {
+    color: white;
+}
+
+.page-header ul li:hover, .textlogo:hover, #createplus:hover {
+    color:silver;
+    transform: scale(1.05);
 }
