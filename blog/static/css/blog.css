@@ -62,14 +62,14 @@ h1, h2, h3, h4 {
 
 #editbtn {
     position: absolute;
-    top: 26%;
-    right: -65%;
+    top: 7vh;
+    right: -74vh;
 }
 
 #createplus {
     position: absolute;
-    right: 3%;
-    top: 8vh;
+    right: 40px;
+    top: 60px;
 }
 
 .textlogo {
@@ -82,7 +82,7 @@ h1, h2, h3, h4 {
 }
 
 #imglogo {
-    width: 10vh;
+    width: 80px;
     float: left;
 }
 
@@ -95,9 +95,19 @@ h1, h2, h3, h4 {
 .page-header ul li {
     color: white;
     display: inline;
+    position: relative;
+}
+
+#aboutusnvgt {
+    right: -32px;
+}
+
+#ctgnvgt {
+    right: -22px;
 }
 
 .page-header ul li:hover, .textlogo:hover, #createplus:hover, #editbtn:hover {
     color:silver;
     transform: scale(1.05);
 }
+
