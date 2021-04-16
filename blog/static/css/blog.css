@@ -88,15 +88,16 @@ h1, h2, h3, h4 {
 
 .page-header ul {
     list-style: none;
-    position: absolute;
-    right: 120vh;
+    margin: 0;
+    padding: 0;
 }
 
 .page-header ul li {
     color: white;
+    display: inline;
 }
 
-.page-header ul li:hover, .textlogo:hover, #createplus:hover {
+.page-header ul li:hover, .textlogo:hover, #createplus:hover, #editbtn:hover {
     color:silver;
     transform: scale(1.05);
 }
