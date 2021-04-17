@@ -14,11 +14,15 @@ body {
 
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active, {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
 
+}
+
+.authbase {
+    margin-left: 40px;
 }
 
 .content {
@@ -115,4 +119,34 @@ h1, h2, h3, h4 {
 
 label {
     color: white;
+}
+
+#usernamehead {
+    color: white;
+    float: right;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+}
+
+#btnlogout {
+    right: -40px;
+}
+
+#btnlogin {
+    right: -40px;
+}
+
+#btnsignup {
+    right: -47px;
+}
+
+strong, li {
+    color: rgb(255, 255, 255);
+}
+
+#signupanswer {
+    color: white;
+}
+
+#authmenuline {
+    font-size: 26pt;
 }
