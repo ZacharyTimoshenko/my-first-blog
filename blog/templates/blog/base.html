@@ -1,7 +1,8 @@
 {% load static %}
 <html>
     <head>
-        <title>Solar System News</title>
+        <title>Space News</title>
+        <link rel="shortcut icon" type="image/png" href="{% static "css/favicon.ico" %}">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,11 +24,11 @@
 
 
         <img src="{% static 'css/logo.png' %}" id="imglogo" alt="Логотип">
-        <a href="/"><span class="textlogo">Solar System News</span></a>
+        <a href="/"><span class="textlogo">Space News</span></a>
         
-        <ul>
-            <a href=""><li id='ctgnvgt'><i class="fas fa-list"></i> Категории</li></a>
-            <a href=""><li id='aboutusnvgt'><i class="fas fa-address-card"></i> Про нас</li></a>
+        <ul id="navigation">
+            <a href=""><li id='extralinks'><i class="far fa-bookmark"></i> Полезные ссылки</li></a>
+            <a href=""><li id='aboutme'><i class="fas fa-address-card"></i> О сайте</li></a>
         </ul>
 
 

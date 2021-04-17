@@ -61,9 +61,8 @@ h1, h2, h3, h4 {
 }
 
 #editbtn {
-    position: absolute;
-    top: 7vh;
-    right: -74vh;
+    position: relative;
+    float: right;
 }
 
 #createplus {
@@ -96,13 +95,15 @@ h1, h2, h3, h4 {
     color: white;
     display: inline;
     position: relative;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+
 }
 
-#aboutusnvgt {
+#aboutme {
     right: -32px;
 }
 
-#ctgnvgt {
+#extralinks {
     right: -22px;
 }
 
@@ -111,3 +112,6 @@ h1, h2, h3, h4 {
     transform: scale(1.05);
 }
 
+label {
+    color: white;
+}
